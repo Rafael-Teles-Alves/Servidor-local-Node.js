@@ -8,6 +8,6 @@ app.get('/', (req, res) => {
 });
 
 // Iniciar o servidor
-app.listen(port, '0.0.0.0', () => { // Vincula o servidor ao endereço IP local
+app.listen(port, '0.0.0.0', () => { // Vincula o servidor ao endereço IP local.
     console.log('Servidor iniciado e acessível na rede!');
 });
